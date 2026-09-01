@@ -4,13 +4,13 @@ import { SolarLogo } from "@/src/components/solar-logo";
 
 export function HeroSection() {
   return (
-    <section id="top" className="relative pt-3 sm:pt-4 px-2 sm:px-4 lg:px-6 pb-6">
-      {/* Outer Hero Card Container with spacious, balanced proportions matching the reference */}
+    <section id="top" className="relative p-3 sm:p-5 lg:p-6 pb-6">
+      {/* Outer Hero Card Container matching the uploaded reference image */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative mx-auto w-full max-w-[98vw] 2xl:max-w-[1650px] overflow-hidden rounded-[2.25rem] sm:rounded-[3rem] border border-white/10 bg-[#000000] shadow-2xl min-h-[78vh] sm:min-h-[82vh] lg:min-h-[86vh] flex flex-col justify-between"
+        className="relative mx-auto w-full max-w-[1600px] overflow-hidden rounded-[2rem] sm:rounded-[2.75rem] lg:rounded-[3.25rem] border border-white/20 bg-black shadow-2xl min-h-[78vh] sm:min-h-[82vh] lg:min-h-[86vh] flex flex-col justify-between"
       >
         {/* Background Video in VIBRANT FULL COLOR from provided Imgur source */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
