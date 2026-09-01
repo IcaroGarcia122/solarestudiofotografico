@@ -1,0 +1,6 @@
+{
+  "name": "Solar Estúdio Fotográfico",
+  "description": "Solar Estúdio Fotográfico em Foz do Iguaçu - PR. Especialistas em casamentos, 15 anos e ensaios fotográficos com sensibilidade, técnica e olhar poético.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
